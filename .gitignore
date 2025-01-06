@@ -44,6 +44,7 @@ htmlcov/
 .coverage
 .coverage.*
 .cache
+.vscode-server
 nosetests.xml
 coverage.xml
 *.cover
@@ -102,7 +103,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -135,3 +135,6 @@ allure-report
 .history
 ignore-config.yaml
 session
+session_data
+icloud/
+.ruff_cache/
